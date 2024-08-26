@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asus/Documents/Enhancement_of_X_ray_images_of_the_lungs_to_aid-_in_better_disease_prediction/MLFlow_test/mlruns/0/3d9210536492444da3d1753f292cf798/artifacts
+end_time: 1724693922611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d9210536492444da3d1753f292cf798
+run_name: kindly-whale-746
+run_uuid: 3d9210536492444da3d1753f292cf798
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724693920234
+status: 3
+tags: []
+user_id: asus
