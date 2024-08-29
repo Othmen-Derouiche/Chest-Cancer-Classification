@@ -13,5 +13,8 @@
 ### Final Step
 
 8. Update `dvc.yaml` DVC for pipeline tracking 
+- dvc init
+- dvc repro
+- dvc dag : dependencies graph 
 
 launch mlflow remote server using DagsHub
