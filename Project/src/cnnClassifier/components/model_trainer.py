@@ -1,4 +1,5 @@
 import os
+import shutil
 import urllib.request as request
 from zipfile import ZipFile
 import tensorflow as tf
@@ -65,7 +66,16 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
-        model.save("model/model.h5")
+
+        destination_folder = 'model/'
+        destination_path = os.path.join(destination_folder, 'model.h5')
+
+        # Create the destination folder if it doesn't exist
+        os.makedirs(destination_folder, exist_ok=True)
+
+        # Copy the file
+        shutil.copy2(path, destination_path)
+        
 
 
 
